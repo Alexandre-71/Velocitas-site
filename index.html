@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velocitas Consultoria</title>
+  <style>
+    :root {
+      --primary: #000000;
+      --accent: #FFCC00;
+      --background: #ffffff;
+      --light-gray: #f2f2f2;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: var(--background);
+      color: var(--primary);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--light-gray);
+      text-align: center;
+      padding: 120px 20px 40px;
+    }
+    .hero-bar {
+      background-color: var(--primary);
+      color: var(--accent);
+      padding: 12px 20px;
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    .hero {
+      background: var(--background);
+      text-align: center;
+    }
+    .elocitas {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: var(--accent);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 { color: var(--primary); margin-bottom: 20px; }
+    ul { padding-left: 20px; }
+    .cta {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: var(--primary);
+      color: var(--background);
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    img.icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    footer {
+      background-color: var(--light-gray);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    @media (max-width: 600px) {
+      .elocitas { font-size: 36px; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero-bar">Velocitas</div>
+
+  <header class="hero">
+    <div class="elocitas">Velocitas</div>
+    <h1>Estratégias inteligentes e execução eficaz</h1>
+    <p>Para juntos acelerarmos seu crescimento e atingirmos suas metas.</p>
+    <p>Acreditamos que resultados extraordinários são atingidos combinando nossa expertise com a de nossos clientes. Juntos superamos desafios.</p>
+    <a href="#servicos" class="cta">O que podemos fazer pelo seu negócio</a>
+  </header>
+
+  <section id="servicos">
+    <div class="elocitas">Velocitas</div>
+    <h2>Estratégia | Modelo de Gestão | Execução</h2>
+    <div class="grid">
+      <div><img src="estrategia-icon.png" class="icon"> Construímos estratégias tangíveis a partir de visões que seu time pode ver, sentir e acreditar.</div>
+      <div><img src="gestao-icon.png" class="icon"> Desdobramos seus objetivos estratégicos vinculando-os à remuneração variável dos colaboradores.</div>
+      <div><img src="execucao-icon.png" class="icon"> Lideramos iniciativas dentro dos clientes compartilhando gestão e decisões com o time executivo.</div>
+    </div>
+    <a href="#mais" class="cta">Saiba mais</a>
+  </section>
+
+  <section id="mais">
+    <div class="elocitas">Velocitas</div>
+    <h2>Como podemos ajudar</h2>
+    <ul>
+      <li><strong>Design Organizacional:</strong> Desenho da estrutura organizacional alinhada à estratégia e modelo de negócios.</li>
+      <li><strong>Planos de Crescimento:</strong> Curto, médio e longo prazo com base em dados e modelos disruptivos.</li>
+      <li><strong>Ritos de Gestão:</strong> Estabelecimento de ritos que acompanham e redirecionam o time para atingir metas.</li>
+      <li><strong>Modelo de Gestão:</strong> Desdobramento de metas alinhadas com remuneração variável.</li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="elocitas">Velocitas</div>
+    <h2>Execução</h2>
+    <ul>
+      <li><strong>Melhoria de processos e jornada de produtos:</strong> Redesenho com uso de ferramentas low code e no code.</li>
+      <li><strong>Integração de M&As:</strong> Planos de integração focados em talentos e satisfação dos clientes.</li>
+      <li><strong>Gestão Interina:</strong> Liderança compartilhada com o time executivo do cliente.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="elocitas">Velocitas</div>
+    <p><strong>Contato:</strong> contato@velocitas.com.br</p>
+    <p><strong>Endereço:</strong> Rua Barão Geraldo de Rezende, 97, sala 402 - Bairro Botafogo - Campinas/SP</p>
+    <p>&copy; Velocitas Consultoria Empresarial - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
